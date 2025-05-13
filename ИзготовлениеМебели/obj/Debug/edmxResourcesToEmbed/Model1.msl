@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище СозданиеМебелиModelContainer" CdmEntityContainer="СозданиеМебелиEntities">
+    <EntitySetMapping Name="MaterialType">
+      <EntityTypeMapping TypeName="СозданиеМебелиModel.MaterialType">
+        <MappingFragment StoreEntitySet="MaterialType">
+          <ScalarProperty Name="Код" ColumnName="Код" />
+          <ScalarProperty Name="ТипМатериала" ColumnName="ТипМатериала" />
+          <ScalarProperty Name="ПроцентПотериСырья" ColumnName="ПроцентПотериСырья" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="СозданиеМебелиModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Код" ColumnName="Код" />
+          <ScalarProperty Name="КодТипПродукции" ColumnName="КодТипПродукции" />
+          <ScalarProperty Name="НаименованиеПродукции" ColumnName="НаименованиеПродукции" />
+          <ScalarProperty Name="Артикул" ColumnName="Артикул" />
+          <ScalarProperty Name="МинСтоимостьДляПартнера" ColumnName="МинСтоимостьДляПартнера" />
+          <ScalarProperty Name="КодОсновнойМатериал" ColumnName="КодОсновнойМатериал" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductMaterialType">
+      <EntityTypeMapping TypeName="СозданиеМебелиModel.ProductMaterialType">
+        <MappingFragment StoreEntitySet="ProductMaterialType">
+          <ScalarProperty Name="Код" ColumnName="Код" />
+          <ScalarProperty Name="Наимненование" ColumnName="Наимненование" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductType">
+      <EntityTypeMapping TypeName="СозданиеМебелиModel.ProductType">
+        <MappingFragment StoreEntitySet="ProductType">
+          <ScalarProperty Name="Код" ColumnName="Код" />
+          <ScalarProperty Name="ТипПродукции" ColumnName="ТипПродукции" />
+          <ScalarProperty Name="Коэффициент" ColumnName="Коэффициент" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductWorkShops">
+      <EntityTypeMapping TypeName="СозданиеМебелиModel.ProductWorkShops">
+        <MappingFragment StoreEntitySet="ProductWorkShops">
+          <ScalarProperty Name="Код" ColumnName="Код" />
+          <ScalarProperty Name="КодПродукции" ColumnName="КодПродукции" />
+          <ScalarProperty Name="КодЦеха" ColumnName="КодЦеха" />
+          <ScalarProperty Name="ВремяИзготовления" ColumnName="ВремяИзготовления" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="СозданиеМебелиModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeWorkShops">
+      <EntityTypeMapping TypeName="СозданиеМебелиModel.TypeWorkShops">
+        <MappingFragment StoreEntitySet="TypeWorkShops">
+          <ScalarProperty Name="Код" ColumnName="Код" />
+          <ScalarProperty Name="Наименование" ColumnName="Наименование" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkShop">
+      <EntityTypeMapping TypeName="СозданиеМебелиModel.WorkShop">
+        <MappingFragment StoreEntitySet="WorkShop">
+          <ScalarProperty Name="Код" ColumnName="Код" />
+          <ScalarProperty Name="Наименование" ColumnName="Наименование" />
+          <ScalarProperty Name="ТипЦеха" ColumnName="ТипЦеха" />
+          <ScalarProperty Name="КоличествоЧелДляПроизводства" ColumnName="КоличествоЧелДляПроизводства" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkShops">
+      <EntityTypeMapping TypeName="СозданиеМебелиModel.WorkShops">
+        <MappingFragment StoreEntitySet="WorkShops">
+          <ScalarProperty Name="Код" ColumnName="Код" />
+          <ScalarProperty Name="НазаваниеЦеха" ColumnName="НазаваниеЦеха" />
+          <ScalarProperty Name="КодТипаЦеха" ColumnName="КодТипаЦеха" />
+          <ScalarProperty Name="КоличествоЧелДляПроизодства" ColumnName="КоличествоЧелДляПроизодства" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

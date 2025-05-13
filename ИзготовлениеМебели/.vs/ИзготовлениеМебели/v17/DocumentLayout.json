@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|c:\\users\\savva\\desktop\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u043F\u0440\u043E\u0435\u043A\u0442\\\u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u043C\u0435\u0431\u0435\u043B\u0438\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|c:\\users\\savva\\desktop\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u043F\u0440\u043E\u0435\u043A\u0442\\\u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u043C\u0435\u0431\u0435\u043B\u0438\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|c:\\users\\savva\\desktop\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u043F\u0440\u043E\u0435\u043A\u0442\\\u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u043C\u0435\u0431\u0435\u043B\u0438\\viewmapworkshop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|solutionrelative:viewmapworkshop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|c:\\users\\savva\\desktop\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u043F\u0440\u043E\u0435\u043A\u0442\\\u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u043C\u0435\u0431\u0435\u043B\u0438\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|c:\\users\\savva\\desktop\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u043F\u0440\u043E\u0435\u043A\u0442\\\u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u043C\u0435\u0431\u0435\u043B\u0438\\addeditproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|solutionrelative:addeditproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|c:\\users\\savva\\desktop\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u043F\u0440\u043E\u0435\u043A\u0442\\\u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u043C\u0435\u0431\u0435\u043B\u0438\\addeditproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A6775D0-EB8D-4D86-BF81-4DDE5E8FD806}|\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438.csproj|solutionrelative:addeditproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:13:09.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewMapWorkShop.xaml",
+              "DocumentMoniker": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\ViewMapWorkShop.xaml",
+              "RelativeDocumentMoniker": "ViewMapWorkShop.xaml",
+              "ToolTip": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\ViewMapWorkShop.xaml",
+              "RelativeToolTip": "ViewMapWorkShop.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T11:05:41.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "addEditProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\addEditProduct.xaml.cs",
+              "RelativeDocumentMoniker": "addEditProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\addEditProduct.xaml.cs",
+              "RelativeToolTip": "addEditProduct.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:05:30.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T11:05:09.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "addEditProduct.xaml",
+              "DocumentMoniker": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\addEditProduct.xaml",
+              "RelativeDocumentMoniker": "addEditProduct.xaml",
+              "ToolTip": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\addEditProduct.xaml",
+              "RelativeToolTip": "addEditProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T11:04:00.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\savva\\Desktop\\\u0417\u0430\u0434\u0430\u043D\u0438\u0435 - \u0440\u0435\u043F\u0435\u0442\u0438\u0446\u0438\u044F 13.05.25\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0418\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435\u041C\u0435\u0431\u0435\u043B\u0438\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T10:44:43.562Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

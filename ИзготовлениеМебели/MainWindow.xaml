@@ -1,0 +1,67 @@
+﻿<Window x:Class="ИзготовлениеМебели.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ИзготовлениеМебели"
+        mc:Ignorable="d"
+        Title="Изготовление Мебели" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="134*"></ColumnDefinition>
+            <ColumnDefinition Width="561*"></ColumnDefinition>
+            <ColumnDefinition Width="105*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="68*"></RowDefinition>
+            <RowDefinition Height="295*"></RowDefinition>
+            <RowDefinition Height="71*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Source="/img/Комфорт.png"></Image>
+        <ListView Grid.Row="1" Grid.Column="1" x:Name="myLv" HorizontalContentAlignment="Stretch" SelectionChanged="myLv_SelectionChanged" Background="#D2DFFF">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="1" BorderBrush="Black">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0" Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding ProductType.ТипПродукции}"></TextBlock>
+                                    <TextBlock Margin="5 0 0 5"> |</TextBlock>
+                                    <TextBlock Margin="5 0 0 5" Text="{Binding НаименованиеПродукции}"></TextBlock>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock>Артикул:</TextBlock>
+                                    <TextBlock Text="{Binding Артикул}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock>Минимальная стоимость для партнера:</TextBlock>
+                                    <TextBlock Text="{Binding МинСтоимостьДляПартнера}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock>Основной материал:</TextBlock>
+                                    <TextBlock Text="{Binding ProductMaterialType.Наимненование}"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" VerticalAlignment="Center" Orientation="Horizontal">
+                                <TextBlock>Время изоготовления</TextBlock>
+                                <TextBlock Margin="5 0 0 5" Text="{Binding ВремяИзготовление}"></TextBlock>
+                                <TextBlock Margin="5 0 0 5" Text="ч."></TextBlock>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Column="1">
+            <Label x:Name="resCalculate"></Label>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <Button Click="btnAdd">Добавить</Button>
+            <Button Click="btnCalculate">Расчет</Button>
+        </StackPanel>
+    </Grid>
+</Window>

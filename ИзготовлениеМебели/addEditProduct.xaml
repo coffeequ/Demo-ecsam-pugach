@@ -1,0 +1,27 @@
+﻿<Window x:Class="ИзготовлениеМебели.addEditProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ИзготовлениеМебели"
+        mc:Ignorable="d"
+        Title="Добавление и редактирования" Height="450" Width="800" Icon="/img/Комфорт.ico">
+    <Grid>
+        <!--артикул, тип продукта (выпадающий список), наименование, минимальная стоимость для партнера, основной материал.-->
+        <StackPanel Margin="5">
+            <TextBlock>Артикул:</TextBlock>
+            <TextBox Text="{Binding Артикул}"></TextBox>
+            <TextBlock>Тип продукции:</TextBlock>
+            <ComboBox x:Name="cbTypeProduct" SelectedValue="{Binding КодТипПродукции}" SelectedValuePath="Код" DisplayMemberPath="ТипПродукции"></ComboBox>
+            <TextBlock>Наимнование:</TextBlock>
+            <TextBox Text="{Binding НаименованиеПродукции}"></TextBox>
+            <TextBlock>Минимальная стоимость для партнера:</TextBlock>
+            <TextBox Text="{Binding МинСтоимостьДляПартнера}"></TextBox>
+            <TextBlock>Основной материал:</TextBlock>
+            <ComboBox x:Name="cbProductMaterialType" SelectedValue="{Binding КодОсновнойМатериал}" SelectedValuePath="Код" DisplayMemberPath="Наимненование"></ComboBox>
+            <Button Click="btnOnMaps">Карта</Button>
+            <Button Click="btnOnSave">Сохранить</Button>
+            <Button Click="btnOnExit">Назад</Button>
+        </StackPanel>
+    </Grid>
+</Window>

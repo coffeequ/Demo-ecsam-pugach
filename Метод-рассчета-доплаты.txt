@@ -1,0 +1,22 @@
+/// <summary>
+/// Calculate
+/// </summary>
+/// <param name="КодЦеха">Идентификатор цеха</param>
+/// <param name="КодПродукции">Индентификатор продукции</param>
+/// <param name="КоэффициентНорм">Коэффициент нормализации</param>
+/// <returns> double или -1,если не найдена продукция / цех / или коэффициент не поподает в диапазон</returns>
+private double Calculate(int КодЦеха, int КодПродукции, double КоэффициентНорм)
+{
+
+    Product product = MainWindow.созданиеМебелиEntites.Product.Find(КодПродукции);
+    WorkShops workShops = MainWindow.созданиеМебелиEntites.WorkShops.Find(КодЦеха);
+
+    if(product != null && workShops != null && КоэффициентНорм >= 1.05 && КоэффициентНорм <= 1.34)
+    {
+        return product.МинСтоимостьДляПартнера / (workShops.КоличествоЧелДляПроизодства * product.ProductType.Коэффициент * КоэффициентНорм);
+    }
+    else
+    {
+        return -1;
+    }
+}

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище СозданиеМебелиModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MaterialType">
+    <Key>
+      <PropertyRef Name="Код" />
+    </Key>
+    <Property Name="Код" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ТипМатериала" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ПроцентПотериСырья" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Код" />
+    </Key>
+    <Property Name="Код" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="КодТипПродукции" Type="int" Nullable="false" />
+    <Property Name="НаименованиеПродукции" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Артикул" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="МинСтоимостьДляПартнера" Type="float" Nullable="false" />
+    <Property Name="КодОсновнойМатериал" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductMaterialType">
+    <Key>
+      <PropertyRef Name="Код" />
+    </Key>
+    <Property Name="Код" Type="int" Nullable="false" />
+    <Property Name="Наимненование" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductType">
+    <Key>
+      <PropertyRef Name="Код" />
+    </Key>
+    <Property Name="Код" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ТипПродукции" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Коэффициент" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductWorkShops">
+    <Key>
+      <PropertyRef Name="Код" />
+    </Key>
+    <Property Name="Код" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="КодПродукции" Type="int" Nullable="false" />
+    <Property Name="КодЦеха" Type="int" Nullable="false" />
+    <Property Name="ВремяИзготовления" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TypeWorkShops">
+    <Key>
+      <PropertyRef Name="Код" />
+    </Key>
+    <Property Name="Код" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Наименование" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WorkShop">
+    <Key>
+      <PropertyRef Name="Код" />
+    </Key>
+    <Property Name="Код" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Наименование" Type="nvarchar" MaxLength="200" />
+    <Property Name="ТипЦеха" Type="int" />
+    <Property Name="КоличествоЧелДляПроизводства" Type="int" />
+  </EntityType>
+  <EntityType Name="WorkShops">
+    <Key>
+      <PropertyRef Name="Код" />
+    </Key>
+    <Property Name="Код" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="НазаваниеЦеха" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="КодТипаЦеха" Type="int" Nullable="false" />
+    <Property Name="КоличествоЧелДляПроизодства" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Product_ProductMaterialType">
+    <End Role="ProductMaterialType" Type="Self.ProductMaterialType" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductMaterialType">
+        <PropertyRef Name="Код" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="КодОсновнойМатериал" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_ProductType">
+    <End Role="ProductType" Type="Self.ProductType" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductType">
+        <PropertyRef Name="Код" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="КодТипПродукции" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductWorkShops_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="ProductWorkShops" Type="Self.ProductWorkShops" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Код" />
+      </Principal>
+      <Dependent Role="ProductWorkShops">
+        <PropertyRef Name="КодПродукции" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductWorkShops_WorkShops">
+    <End Role="WorkShops" Type="Self.WorkShops" Multiplicity="1" />
+    <End Role="ProductWorkShops" Type="Self.ProductWorkShops" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkShops">
+        <PropertyRef Name="Код" />
+      </Principal>
+      <Dependent Role="ProductWorkShops">
+        <PropertyRef Name="КодЦеха" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkShops_TypeWorkShops">
+    <End Role="TypeWorkShops" Type="Self.TypeWorkShops" Multiplicity="1" />
+    <End Role="WorkShops" Type="Self.WorkShops" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeWorkShops">
+        <PropertyRef Name="Код" />
+      </Principal>
+      <Dependent Role="WorkShops">
+        <PropertyRef Name="КодТипаЦеха" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище СозданиеМебелиModelContainer">
+    <EntitySet Name="MaterialType" EntityType="Self.MaterialType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductMaterialType" EntityType="Self.ProductMaterialType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductType" EntityType="Self.ProductType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductWorkShops" EntityType="Self.ProductWorkShops" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypeWorkShops" EntityType="Self.TypeWorkShops" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkShop" EntityType="Self.WorkShop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkShops" EntityType="Self.WorkShops" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Product_ProductMaterialType" Association="Self.FK_Product_ProductMaterialType">
+      <End Role="ProductMaterialType" EntitySet="ProductMaterialType" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_ProductType" Association="Self.FK_Product_ProductType">
+      <End Role="ProductType" EntitySet="ProductType" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductWorkShops_Product" Association="Self.FK_ProductWorkShops_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="ProductWorkShops" EntitySet="ProductWorkShops" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductWorkShops_WorkShops" Association="Self.FK_ProductWorkShops_WorkShops">
+      <End Role="WorkShops" EntitySet="WorkShops" />
+      <End Role="ProductWorkShops" EntitySet="ProductWorkShops" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkShops_TypeWorkShops" Association="Self.FK_WorkShops_TypeWorkShops">
+      <End Role="TypeWorkShops" EntitySet="TypeWorkShops" />
+      <End Role="WorkShops" EntitySet="WorkShops" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
